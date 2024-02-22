@@ -27,7 +27,7 @@ In Go, every program is part of a package. Programs start running in package mai
 
 Let’s start with an example. When learning a new language, we often write a little program that prints the text “Hello, world!” to the screen, so let’s do it here!
 
-[helloworld](https://goplay.tools/snippet/mHIEl2BLCxl ':include :type=iframe width=100% height=400px')
+[helloworld](https://goplay.tools/snippet/mHIEl2BLCxl ':include :type=iframe width=100% height=600px')
 
 If you run the code, it will print out "Hello World!" to the terminal.
 
