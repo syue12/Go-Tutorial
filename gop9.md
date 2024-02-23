@@ -316,6 +316,8 @@ Here, `doSomething()` is called, and its error value is immediately checked in t
 
 **User Age Group** : Classify a user's age group. Use if to identify minors (below 18), else if for adults (18 - 64), and else for seniors (65 and above).
 
+[exercise](https://goplay.tools/snippet/cffdnCvryLg ':include :type=iframe width=100% height=500px')
+
 This exercise will help you practice Go's control structures and understand how they can be used to execute different code blocks based on varying conditions.
 
 # Functions in Go
@@ -366,7 +368,7 @@ fmt.Println(result)  // This will print 15
 
 Functions in Go can take zero or more parameters and may return a result. Go supports named return values, which can clarify the purpose of the return values.
 
-```go
+```Go
 func divide(dividend float64, divisor float64) (result float64, err error) {
     if divisor == 0.0 {
         err = errors.New("division by zero")
@@ -387,7 +389,7 @@ Java does not natively support returning multiple values from a method. You woul
 
 Python functions can return multiple values using tuples, making it quite straightforward.
 
-```python
+```Python
 Copy code
 def divide(x, y):
     if y == 0:
@@ -427,3 +429,5 @@ This `sequence` function returns another function, which we then call multiple t
 ## Practical Exercises
 
 **Write a Function**: Write a function that takes two strings and returns their concatenation.
+
+[exercise](https://goplay.tools/snippet/cffdnCvryLg ':include :type=iframe width=100% height=500px')
