@@ -83,6 +83,8 @@ The code below will report an error as the exported name is incorrect. You shoul
 
 [exportedname](https://goplay.tools/snippet/Jcp1fMKMbr3 ':include :type=iframe width=100% height=400px')
 
+`math.pi` should be `math.Pi`.
+
 ### Go Comments
 A comment is a text that is ignored upon execution. Comments can be used to explain the code, and to make it more readable. Comments can also be used to prevent code execution when testing an alternative code. Go supports single-line or multi-line comments.
 
